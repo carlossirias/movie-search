@@ -35,7 +35,7 @@ function App() {
         <h1 className='text-5xl font-black'>Movie <span className='text-rose-600'>Search</span></h1>
         <form action="" className='flex gap-2' onSubmit={handleSubmit}>
           <input type="text" onChange={handleChange} value={search} placeholder="Avengers, Harry Potter, Me before you..." className='max-sm:w-60 w-96 bg-slate-900 border border-white p-3 rounded-lg ' />
-          <button type="submit" className='p-3 bg-gray-950 rounded-lg text-lg font-bold border border-white'>Search</button>
+          <button type="submit" className='p-3 bg-gray-950 rounded-lg text-lg font-bold border border-white hover:bg-white hover:text-black transition'>Search</button>
         </form>
       </header>
       <main className='w-full p-5 md:w-[1000px] '>
