@@ -22,7 +22,9 @@ export function useMovies({search})
   const getMovies = useCallback((actualSearch) =>
   {
     const URL_MOVIES = getApiUrl(actualSearch)
+
     if(previousSearch.current === actualSearch) return
+    
     previousSearch.current = actualSearch
     console.log(actualSearch)
     if(actualSearch)

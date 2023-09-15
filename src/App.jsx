@@ -3,6 +3,7 @@ import { MoviesSection, NoMoviesSection } from './components/Movies'
 import { useMovies } from './hocks/useMovies'
 import { useSearch } from './hocks/useSearch'
 import './App.css'
+import { Counter } from './components/Counter'
 
 function App() {
   const { search, setSearch } = useSearch();
@@ -37,8 +38,11 @@ function App() {
           <button type="submit" className='p-3 bg-gray-950 rounded-lg text-lg font-bold border border-white'>Search</button>
         </form>
       </header>
-      <h1></h1>
       <main className='w-full p-5 md:w-[1000px] '>
+
+        
+        <Counter></Counter>
+   
 
         {
           hasMovies

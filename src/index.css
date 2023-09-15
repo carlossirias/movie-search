@@ -30,3 +30,32 @@
     justify-content: center;
     opacity: 0;
 }
+
+.slider{
+    height: leepx;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track{
+animation: scroll 40s linear infinite;
+display: flex;
+width: calc(208px * 14);
+}
+
+.slider .slide{
+height: auto;
+width: 250px;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0px);
+    }
+
+    100%{
+        transform: translateX(calc(-208px*7));
+    }
+}

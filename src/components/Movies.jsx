@@ -5,7 +5,7 @@ export function MoviesSection({ moviesResult, search }) {
   return (
     <>
       {/* eslint-disable-next-line react/prop-types */}
-      <h2 className="mb-6 text-2xl font-bold text-white">{moviesResult.length} Results for: <span className="text-rose-500 ">{search}</span></h2>
+      <h2 className="mb-6 mt-6 text-2xl font-bold text-white">{moviesResult.length} Results for: <span className="text-rose-500 ">{search}</span></h2>
       <section className='section__movies w-full gap-5'>
         {/* eslint-disable-next-line react/prop-types*/}
         {moviesResult.map(movies =>
