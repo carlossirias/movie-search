@@ -12,7 +12,7 @@ export function MoviesSection({ moviesResult, search }) {
         (
           <article key={movies.id} className="movie__container relative overflow-hidden rounded-lg bg-gray-800 w-full text-white shadow flex flex-col items-center gap-2 place-content-between hover:before:opacity-50 before:transition">
             <div className="movie__image__container w-full h-full transition ">
-              <img src={movies.posterUrl} alt="" className='w-full h-full  rounded-sm min-h-[300px] object-cover ' />
+              <img src={movies.posterUrl} alt="" className='w-full   rounded-sm min-h-[300px] object-cover h-full' />
             </div>
 
             <div className="movie__info__container hover:opacity-100 gap-2 text-center transition">
