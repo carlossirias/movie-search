@@ -3,6 +3,7 @@ import { MoviesSection, NoMoviesSection } from './components/Movies'
 import { useMovies } from './hocks/useMovies'
 import { useSearch } from './hocks/useSearch'
 import './App.css'
+import {Footer} from './components/FooterCarlos'
 import { Counter } from './components/Counter'
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         }
 
       </main>
+      <Footer colorText={'#e11d48'} colorHover={'#022c22'} isBlack={true}></Footer>
     </div>
   )
 }
