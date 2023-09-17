@@ -1,4 +1,4 @@
-# Movie Search
+E# Movie Search
 
 With this application, you can search for and discover a wide variety of movies from different genres and release dates, all in one place. This application was created in React, and its purpose was to simulate a technical test.
 
